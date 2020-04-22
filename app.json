@@ -1,19 +1,19 @@
 {
   "expo": {
-    "name": "the-place-app",
-    "slug": "the-place-app",
+    "name": "the-location-app",
+    "slug": "the-location-app",
+    "privacy": "public",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/places.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,22 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": { 
+      "package": "com.adityakshettri.the_location_app",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBOdw28MRlQkQyQ1XH-wJm5dtklXj6J3zQ"
+        }
+      }
     }
   }
 }

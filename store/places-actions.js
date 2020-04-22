@@ -40,7 +40,7 @@ export const addPlace = (title, image, location) => {
         location.lat,
         location.lng
       );
-      console.log(dbResult);
+
       dispatch({
         type: ADD_PLACE,
         placeData: {
@@ -55,7 +55,6 @@ export const addPlace = (title, image, location) => {
         }
       });
     } catch (err) {
-      console.log(err);
       throw err;
     }
   };
@@ -65,7 +64,6 @@ export const loadPlaces = () => {
   return async dispatch => {
     try {
       const dbResult = await fetchPlaces();
-      console.log(dbResult);
       dispatch({ type: SET_PLACES, places: dbResult.rows._array });
     } catch (err) {
       throw err;
