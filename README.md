@@ -4,6 +4,7 @@ In this project, I have worked with all Native Device Features like Camera, Loca
 # How to see a demo of this project:
 
 1- Install Expo-Client App in your android/ios mobile device from Playstore/Appstore.
+https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN
 
 2- Go to https://expo.io/@adityakshettri/the-location-app in your desktop and scan the QR code from your Expo-client App in your android/ios mobile device.
 
