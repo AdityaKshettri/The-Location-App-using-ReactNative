@@ -15,6 +15,6 @@ OR
 
 2- Go to @adityakshettri/the-location-app directly inside the Expo Client app in your android/ios mobile device.
 
-3- This will automatically run my app in the Expo Client app in your android/ios mobile device.
+3- This will automatically run my app in the Expo Client app in your android/ios mobile device. Now you can save various images with location in your app. 
 
 4- Also, my app will be automatically updated in your android/ios mobile device whenever it is required.
